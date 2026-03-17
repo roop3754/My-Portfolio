@@ -1,0 +1,70 @@
+<<<<<<< Updated upstream
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1ed;
+    color: #3e2723;
+}
+
+header {
+    background-color: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.hero {
+    height: 20vh;
+    background-color: #6f4e37;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+
+#about {
+    padding: 40px;
+    text-align: center;
+}
+
+#about img {
+    width: 190px;
+    border-radius: 10%;
+    margin: 15px;
+}
+
+#contact {
+    background-color: #d7ccc8;
+    padding: 30px;
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 12px;
+    background-color: #6f4e37;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.links a:hover {
+    background-color: #3e2723;
+}
+
+footer {
+    background-color: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+>>>>>>> Stashed changes
