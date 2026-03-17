@@ -38,3 +38,9 @@ header {
     border-radius: 10%;
     margin: 15px;
 }
+
+#contact {
+    background-color: #d7ccc8;
+    padding: 30px;
+    text-align: center;
+}
