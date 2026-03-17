@@ -9,3 +9,32 @@ body {
     background-color: #f5f1ed;
     color: #3e2723;
 }
+
+header {
+    background-color: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.hero {
+    height: 20vh;
+    background-color: #6f4e37;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    animation: fadeIn 5s;
+}
+
+#about {
+    padding: 40px;
+    text-align: center;
+}
+
+#about img {
+    width: 180px;
+    border-radius: 10%;
+    margin: 15px;
+}
