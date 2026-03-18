@@ -75,12 +75,16 @@ footer {
     }
 }
 
+.hero {
+    animation: slideUp 1s ease;
+}
+
 @keyframes slideUp {
     from {
         transform: translateY(30px);
     }
     to {
-        transform: translateY(0);
+        transform: translateY(1);
     }
 }
 
